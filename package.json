@@ -9,6 +9,9 @@
     "dist"
   ],
   "repository": "https://github.com/GhostSwapPulse/ghost-uikit",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
